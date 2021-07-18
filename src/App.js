@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Sidebar from './Components/Sidebar';
 
-import styled from 'styled-components';
 import { IconButton } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 
