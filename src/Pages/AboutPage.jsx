@@ -3,10 +3,14 @@ import styled from 'styled-components';
 
 const AboutPage = () => {
     return (
-        <div>
+        <AboutStyled>
             About Us
-        </div>
+        </AboutStyled>
     )
 }
+
+const AboutStyled = styled.section`
+    
+`;
 
 export default AboutPage
