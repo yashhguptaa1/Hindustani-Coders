@@ -1,11 +1,18 @@
 import React from 'react';
+
+import Title from '../Components/Title';
+
 import styled from 'styled-components';
+import {MainLayout } from '../styles/Layout';
+
 
 const ContactPage = () => {
     return (
-        <ContactPageStyled>
-            Contact
-        </ContactPageStyled>
+        <MainLayout>
+            <Title title={'Contact'} span={'Contact'} />
+            <ContactPageStyled>
+            </ContactPageStyled>
+        </MainLayout>
     )
 }
 

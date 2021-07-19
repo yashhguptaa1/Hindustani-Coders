@@ -1,11 +1,18 @@
 import React from 'react';
+
+import Title from '../Components/Title';
+
 import styled from 'styled-components';
+import {MainLayout} from '../styles/Layout';
+
 
 const BlogsPage = () => {
     return (
-        <BlogsStyled>
-            Blogs
-        </BlogsStyled>
+        <MainLayout>
+            <BlogsStyled>
+                <Title title={'Blogs'} span={'Blogs'} />
+            </BlogsStyled>
+        </MainLayout>
     )
 }
 

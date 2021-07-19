@@ -1,10 +1,11 @@
 import React from 'react'
 
+import { MainLayout } from '../styles/Layout';
+
 const ResumePage = () => {
     return (
-        <div>
-            Resume
-        </div>
+        <MainLayout>
+        </MainLayout>
     )
 }
 
